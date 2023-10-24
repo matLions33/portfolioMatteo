@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matteo Leoni Portfolio</title>
+
+    <!-- librerie -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Navbar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Matteo Leoni</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" aria-current="page" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-btn ml-auto">
+          <button class="nav-link dark-mode-toggle" onclick="toggleDarkMode()" style="background-color: transparent; border: none; ">Dark Mode</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">  <!-- container fluido -->
+    <div class="row">   <!-- riga -->
+      <div class="col-4 bg-dark" style="height: 100vh; ">  <!-- colonna spazio 4 nera per icone -->
+        <div class="d-flex flex-column justify-content-center align-items-center">
+        <button class="bottone-social" type="button" onclick="window.location.href='https://www.instagram.com/'" style="background-image: url('foto/instagram.svg'); width: 60px; height: 60px;"></button>
+        <button class="bottone-social" type="button" onclick="window.location.href='https://www.facebook.com/'" style="background-image: url('foto/facebook.svg'); width: 45px; height: 45px; margin-bottom: 1.5vh;"></button>
+        <button class="bottone-social" type="button" onclick="window.location.href='https://www.linkedin.com/'" style="background-image: url('foto/linkedin.svg'); width: 45px; height: 45px; margin-bottom: 1vh"></button>
+        <button class="bottone-social" type="button" onclick="window.location.href='https://www.github.com/'" style="background-image: url('foto/github.svg'); width: 45px; height: 45px;"></button>
+
+      </div>
+      </div>
+      <div class="col-8 col-bordo">    <!-- colonna spazio 8 per carousel -->
+        <div class="row">
+          <div class="col-12" style="height: 65vh; margin-left: 0;" >  <!-- colonna restante 8 spazio con margine basso  -->
+            <div id="carouselEsempio" class="carousel slide h-100 rounded" data-bs-ride="carousel">   <!-- carousel -->
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active ">
+                  <img class="d-block w-100 h-100 img-fluid" src="foto/bootstrap.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item h-100">
+                  <img class="d-block w-100 h-100 img-fluid" src="foto/imgJavascript.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item h-100">
+                  <img class="d-block w-100 h-100 img-fluid" src="foto/code.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselEsempio" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-pause" href="#carouselEsempio" role="button" data-bs-pause="true">
+                <span class="carousel-control-pause-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Pause</span>
+              </a>
+              
+              <a class="carousel-control-next" href="#carouselEsempio" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-12 bg-transparent" style="height: 35vh;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+    
+      
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>

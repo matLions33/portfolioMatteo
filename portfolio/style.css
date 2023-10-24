@@ -1,0 +1,311 @@
+.bg-light {
+    background-color: #0a7c00!important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c7c40e;
+}
+
+.navbar-light .navbar-brand{
+    color: #c7c40e;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 100%;
+  }
+  
+
+.ig-icon {
+  width: 60px;
+}
+
+  
+.bottone-social {     
+  background-color: transparent; 
+  background-size: cover; 
+  border: none;
+  position: relative; 
+}
+  
+  .d-flex {
+    display: flex;
+  }
+  
+.flex-column {
+  flex-direction: column;
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+  height: 100%;
+}
+  
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #212529;
+  color: white;
+}
+
+.social-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;   /* rende l immagine circolare */
+  object-fit: cover;     /* adatta l'immagine alle dimensioni del cerchio */
+  margin-top: 10%;
+
+}
+
+
+.col-bordo{
+  padding: 0px;
+}
+
+#carouselEsempio{
+  border: solid;
+}
+
+
+.element1, .element2 {
+  display: inline-block;
+}
+
+
+
+.container-fluid {
+  height: 100%;
+}
+
+
+body{
+  background-color: #f0f0f0;
+}
+.progress{
+  max-width:1000px;
+  margin: 40px auto;
+  overflow: visible;
+}
+
+
+/* STYLES FOR PROGRESSBARS */
+
+.progress-radial, .progress-radial * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  width: 20%;
+  border-radius: 50%;
+  margin-bottom: 4%;
+}
+.progress-radial:first-child {
+  
+  margin-bottom: 4%;
+}
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 80%;
+  background-color: rgba(240, 240, 240, 0.5);
+  border-radius: 50%;
+  font-size: 14px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.progress-radial .overlay p{
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin-top: -20px;
+}
+
+
+
+
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+.progress-0 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(0deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-5 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(342deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-10 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(324deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-15 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(306deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-20 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(288deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-25 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-30 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(252deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-35 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(234deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-40 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(216deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-45 {
+  background-image: -webkit-linear-gradient(0deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(198deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #000000 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-50 {
+  background-image: -webkit-linear-gradient(180deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(-90deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-55 {
+  background-image: -webkit-linear-gradient(162deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(-72deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-60 {
+  background-image: -webkit-linear-gradient(144deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(-54deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-65 {
+  background-image: -webkit-linear-gradient(126deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(-36deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-70 {
+  background-image: -webkit-linear-gradient(108deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(-18deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-75 {
+  background-image: -webkit-linear-gradient(90deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(0deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-80 {
+  background-image: -webkit-linear-gradient(72deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(18deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-85 {
+  background-image: -webkit-linear-gradient(54deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(36deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-90 {
+  background-image: -webkit-linear-gradient(36deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(54deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-95 {
+  background-image: -webkit-linear-gradient(18deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(72deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+.progress-100 {
+  background-image: -webkit-linear-gradient(0deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), -webkit-linear-gradient(180deg, #FFBF00 50%, #000000 50%, #000000);
+  background-image: linear-gradient(90deg, #FFBF00 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #FFBF00 50%, #000000 50%, #000000);
+}
+
+
+@media (max-width: 1250px) {
+  .progress.bg-dark {
+    flex-direction: column;
+    min-height: 250px;
+    align-items: center;
+  }
+}
+
+.progress-radial .overlay #html5 {
+  position: absolute;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  top: 55%; /* Posiziona il paragrafo sotto alla progress radial con un offset del 5% */
+  margin-top: -20px;
+}
+
+
+
+  
+  
+
+
+#testo-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testo-container iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+
+.skill {
+  background: linear-gradient(90deg, #FFBF00 0%, #FFBF00 100%);
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  border-radius: 0 20px 20px 0;
+}
+
+.wide{
+  color:white;
+}
+
+h2 {
+  font-size: clamp(0.7rem, 4vw, 2.5rem);
+}
+
